@@ -73,18 +73,12 @@ secrets.json
 .claude/
 !.claude-plugin/
 
-# --- Local-only archive of original Claude-web drafts ---
-# Reference material, not part of the shipped plugin.
-web Claude docs/
-
 # --- OneDrive / sync artifacts ---
 *.tmp
 ~$*
 .~lock.*
-ui-libraries-ultimate-list.md
 
-# --- Knowledge graph tool outputs ---
-.code-review-graph/
-graphify-out/
-graph.json
-GRAPH_REPORT.md
+# --- Local-only archive ---
+# Anything not meant to ship: Claude-web drafts, graph tool outputs,
+# scratch lists, etc. One line, one folder, no clutter in the repo root.
+archive/
