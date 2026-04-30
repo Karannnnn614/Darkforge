@@ -1,0 +1,90 @@
+# =====================================
+# Darkforge .gitignore
+# =====================================
+
+# --- OS junk ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+desktop.ini
+$RECYCLE.BIN/
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# --- Logs ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.npm
+.yarn-integrity
+
+# --- Dependencies (none ship with the plugin, but block in case examples land) ---
+node_modules/
+jspm_packages/
+bower_components/
+
+# --- Build outputs ---
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.turbo/
+.vercel/
+.svelte-kit/
+coverage/
+*.tsbuildinfo
+
+# --- Env / secrets — never commit ---
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.production.local
+.env.test.local
+*.pem
+*.key
+*.cert
+secrets.json
+
+# --- Claude Code local session settings (NOT plugin metadata!) ---
+# .claude/  is per-user session config — local only
+# .claude-plugin/  is the actual plugin manifest — MUST be tracked
+.claude/
+!.claude-plugin/
+
+# --- Local-only archive of original Claude-web drafts ---
+# Reference material, not part of the shipped plugin.
+web Claude docs/
+
+# --- OneDrive / sync artifacts ---
+*.tmp
+~$*
+.~lock.*
+ui-libraries-ultimate-list.md
+
+# --- Knowledge graph tool outputs ---
+.code-review-graph/
+graphify-out/
+graph.json
+GRAPH_REPORT.md

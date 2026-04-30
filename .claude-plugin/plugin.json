@@ -1,0 +1,39 @@
+{
+  "name": "darkforge",
+  "version": "1.0.0",
+  "description": "The dark UI arsenal for Claude Code. One /forge command generates AMOLED dark, neon-glow, glassmorphism, animated, production-ready interfaces — using whatever libraries are in your package.json. Stack-aware. Token-driven. Senior-grade output.",
+  "author": {
+    "name": "Karan",
+    "url": "https://github.com/Karannnnn614"
+  },
+  "homepage": "https://github.com/Karannnnn614/Darkforge",
+  "repository": "https://github.com/Karannnnn614/Darkforge",
+  "license": "MIT",
+  "keywords": [
+    "ui",
+    "dark",
+    "amoled",
+    "glassmorphism",
+    "neon",
+    "animation",
+    "framer-motion",
+    "gsap",
+    "threejs",
+    "react-three-fiber",
+    "aceternity",
+    "magicui",
+    "skiper-ui",
+    "reactbits",
+    "shadcn",
+    "daisyui",
+    "flowbite",
+    "ant-design",
+    "tailwind",
+    "skeleton",
+    "dashboard",
+    "hero",
+    "design-system",
+    "claude-code",
+    "claude-skill"
+  ]
+}

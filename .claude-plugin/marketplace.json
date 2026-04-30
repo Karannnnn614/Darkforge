@@ -1,0 +1,52 @@
+{
+  "name": "darkforge",
+  "owner": {
+    "name": "Karan",
+    "url": "https://github.com/Karannnnn614"
+  },
+  "metadata": {
+    "description": "Darkforge — the dark UI arsenal for Claude Code.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "darkforge",
+      "source": "./",
+      "description": "One /forge command, every dark UI library, jaw-dropping output. AMOLED-first, stack-aware, production-grade.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Karan",
+        "url": "https://github.com/Karannnnn614"
+      },
+      "homepage": "https://github.com/Karannnnn614/Darkforge",
+      "repository": "https://github.com/Karannnnn614/Darkforge",
+      "license": "MIT",
+      "category": "design",
+      "tags": [
+        "ui",
+        "dark",
+        "design-system",
+        "animation",
+        "frontend",
+        "amoled",
+        "glassmorphism",
+        "neon"
+      ],
+      "keywords": [
+        "ui",
+        "dark",
+        "amoled",
+        "framer-motion",
+        "gsap",
+        "threejs",
+        "aceternity",
+        "magicui",
+        "shadcn",
+        "tailwind",
+        "skeleton",
+        "hero",
+        "dashboard"
+      ]
+    }
+  ]
+}
