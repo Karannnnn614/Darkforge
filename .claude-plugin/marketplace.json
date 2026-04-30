@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "Darkforge — the dark UI arsenal for Claude Code.",
-    "version": "1.0.0"
+    "version": "1.2.0"
   },
   "plugins": [
     {
       "name": "darkforge",
       "source": "./",
       "description": "One /forge command, every dark UI library, jaw-dropping output. AMOLED-first, stack-aware, production-grade.",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "author": {
         "name": "Karan",
         "url": "https://github.com/Karannnnn614"

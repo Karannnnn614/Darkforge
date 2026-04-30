@@ -1,6 +1,6 @@
 {
   "name": "darkforge",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "The dark UI arsenal for Claude Code. One /forge command generates AMOLED dark, neon-glow, glassmorphism, animated, production-ready interfaces — using whatever libraries are in your package.json. Stack-aware. Token-driven. Senior-grade output.",
   "author": {
     "name": "Karan",
