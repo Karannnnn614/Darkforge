@@ -171,21 +171,6 @@ These tokens are the foundation of every component. **Always use the CSS variabl
 
 ---
 
-## Humanized UI Principles
-
-Tokens get the colors right. These principles get the *feel* right. Apply them on every generation — they're what separates "dark Tailwind" from "looks expensive".
-
-- **Breathing room beats density.** Default to generous padding (`--df-space-6` and up on cards, `--df-space-12+` between sections). Body line-height ≥ 1.5. If a layout feels crowded, the answer is almost always more whitespace, not smaller type.
-- **Hierarchy through weight, color, and scale — in that order.** Don't lean on size alone. A 14px label in `--df-text-secondary` next to a 14px value in `--df-text-primary` reads as hierarchy. Type-scale ratio ≥ 1.25 between levels (display → h1 → h2 → body).
-- **Fluid type, not rigid breakpoints.** Use `clamp()` for hero headings (`clamp(2.25rem, 5vw, 4.5rem)`). Body text minimum 14px on mobile, 16px+ on desktop.
-- **Motion has a job.** Every animation answers: *where did focus just go, or what just changed?* Decorative motion (idle floats, ambient drifts) is opt-in, never the default. Honor `prefers-reduced-motion` always.
-- **Color is intent, not decoration.** Violet = primary action / focus. Cyan = info / link / data. Pink = highlight / new. Green = success. Amber = warning. Red = error. Don't pick neon colors for vibe — pick them for meaning.
-- **Dark as elevation scale.** Stack surfaces by lightness: `bg-base` (page) → `bg-surface` (card) → `bg-elevated` (popover) → `bg-overlay` (modal). Glow replaces drop-shadow; AMOLED black eats traditional shadows.
-- **Micro-interactions on every interactive element.** Hover, active, focus, and disabled states. Focus ring uses `--df-border-focus`. No bare `<button>` with only a default state.
-- **Real content, real shapes.** "Active users — 12,847" beats "Stat — 1234". Domain-accurate copy makes a generated UI feel like a product, not a template.
-
----
-
 ## Phase 2 — Intent Routing
 
 Match keywords in `$ARGUMENTS` to load the right reference. Multiple references may load if the request spans them (e.g. "3D hero with scroll animation" loads `03-threejs-r3f.md` + `02-gsap.md` + `patterns/hero.md`).
@@ -257,17 +242,6 @@ Apply, in order:
    - `aria-*` attributes, keyboard navigation, `role` where needed
    - All animations wrapped in or guarded against `prefers-reduced-motion`
    - Real copy, real prop names, real data shapes — never `{title: "Lorem ipsum"}`
-
-### Inner monologue before generating
-
-Before writing the first line of code, run a silent four-question pass. Don't print it — just answer it for yourself:
-
-1. **What is the user actually trying to do?** Reduce the request to a one-sentence goal. ("Show 4 pricing tiers and convert visitors" — not "build a pricing page".)
-2. **Where should the eye land first, second, third?** Define the visual hierarchy before deciding what to build. The most important element gets the most weight, contrast, and space.
-3. **What motion would help that hierarchy — and what would distract from it?** If motion doesn't reinforce the eye-path, cut it.
-4. **What's the simplest version that still feels expensive?** No feature creep. Skip the parts that don't serve the goal.
-
-If you can't answer all four in a single pass, the spec is too vague — ask one clarifying question (per "When the user asks something ambiguous"), then continue.
 
 ---
 
